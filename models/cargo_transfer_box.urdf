@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<robot name="cargo_transfer_box">
+
+  <!-- Materialdefinition -->
+  <material name="grey">
+    <color rgba="0.6 0.6 0.6 1.0"/>
+  </material>
+
+  <!-- Link der Cargo Transfer Box -->
+  <link name="cargo_box">
+    <visual>
+      <geometry>
+        <box size="1.5 0.6 0.5"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="1.5 0.6 0.5"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="15.0"/>
+      <inertia 
+        ixx="0" ixy="0.0"  ixz="0.0"
+        iyy="0" iyz="0.0"
+        izz="0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </inertial>
+  </link>
+
+</robot>

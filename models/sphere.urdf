@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<robot name="sphere">
+  <!-- Link representing a solid sphere of diameter 2.3 m -->
+  <link name="sphere_link">
+    <inertial>
+      <!-- Center of mass at origin -->
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <!-- Mass set to 1.0 kg; adjust as needed -->
+      <mass value="1.0"/>
+      <!-- Moment of inertia for a solid sphere: I = 2/5 m r^2, radius = 1.15 m -->
+      <inertia ixx="0.529" ixy="0.0" ixz="0.0" iyy="0.529" iyz="0.0" izz="0.529"/>
+    </inertial>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <!-- Sphere radius = diameter/2 -->
+        <sphere radius="1.15"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.7 0.7 0.7 1.0"/>
+      </material>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="1.15"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>

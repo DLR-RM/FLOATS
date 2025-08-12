@@ -1,0 +1,2015 @@
+<?xml version="1.0"?>
+<robot name="plane">
+  <link name="planeLink">
+
+    <contact>
+      <lateral_friction value="1"/>
+    </contact>
+
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+
+    <!-- Visualization mesh -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-shifted.stl" scale="1 1 1"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.001.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.001.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.002.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.003.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.004.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.005.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.006.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.007.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.008.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.009.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.010.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.011.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.012.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.013.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.014.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.015.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.016.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.017.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.018.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.019.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.020.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.021.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.022.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.023.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.024.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.025.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.026.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.027.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.028.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.029.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.030.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.031.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.032.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.033.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.034.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.035.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.036.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.037.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.038.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.039.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.040.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.041.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.042.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.043.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.044.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.045.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.046.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.047.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.048.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.049.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.050.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.051.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.052.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.053.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.054.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.055.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.056.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.057.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.058.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.059.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.060.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.061.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.062.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.063.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.064.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.065.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.066.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.067.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.068.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.069.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.070.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.071.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.072.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.073.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.074.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.075.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.076.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.077.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.078.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.079.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.080.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.081.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.082.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.083.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.084.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.085.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.086.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.087.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.088.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.089.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.090.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.091.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.092.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.093.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.094.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.095.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.096.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.097.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.098.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.099.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.100.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.101.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.102.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.103.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.104.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.105.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.106.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.107.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.108.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.109.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.110.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.111.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.112.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.113.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.114.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.115.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.116.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.117.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.118.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.119.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.120.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.121.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.122.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.123.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.124.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.125.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.126.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.127.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.128.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.129.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.130.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.131.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.132.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.133.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.134.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.135.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.136.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.137.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.138.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.139.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.140.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.141.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.142.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.143.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.144.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.145.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.146.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.147.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.148.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.149.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.150.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.151.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.152.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.153.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.154.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.155.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.156.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.157.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.158.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.159.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.160.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.161.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.162.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.163.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.164.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.165.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.166.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.167.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.168.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.169.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.170.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.171.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.172.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.173.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.174.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.175.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.176.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.177.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.178.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.179.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.180.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.181.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.182.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.183.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.184.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.185.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.186.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.187.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.188.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.189.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.190.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.191.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.192.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.193.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.194.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.195.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.196.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.197.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.198.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.199.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.200.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.201.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.202.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.203.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.204.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.205.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.206.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.207.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.208.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.209.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.210.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.211.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.212.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.213.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.214.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.215.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.216.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.217.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.218.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.219.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.220.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.221.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.222.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.223.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.224.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.225.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.226.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.227.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.228.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.229.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.230.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.231.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.232.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.233.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.234.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.235.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.236.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.237.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.238.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.239.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.240.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.241.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.242.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.243.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.244.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.245.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.246.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.247.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.248.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.249.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.250.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.251.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.252.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.253.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.254.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.255.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.256.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.257.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.258.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.259.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.260.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.261.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.262.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.263.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.264.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.265.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.266.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.267.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.268.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.269.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.270.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.271.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.272.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.273.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.274.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.275.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.276.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.277.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.278.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.279.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.280.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.281.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.282.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="iss-collision/iss-bbiss-shifted.002_BoundingBox.283.stl" scale="1 1 1"/>
+      </geometry>
+    </collision>
+
+  </link>
+</robot>
