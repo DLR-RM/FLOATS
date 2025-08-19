@@ -29,20 +29,29 @@ We demonstrate grasping, free-floating object reconfiguration, and mobile manipu
 ## Getting Started
 
   ### Test inhand manipulation 
-  You can perform inhand manipulation by grasping a Cargo Transder Box and rotating it by 180 or 360 degrees. Therefor, we use a trajectory defined in "trajectory_inhand_manipulation", that you can       adapt to also manipulate different objects like cameras, rover wheels, sample tubes, grease guns etc..
+  You can perform inhand manipulation by grasping a cargo transfer bag and rotating it by 180 or 360 degrees. The procedure consists of three phases: grasping, releasing with induced
+  spin, and timed regrasping Therefor, we use a trajectory defined in "trajectory_inhand_manipulation", that you can adapt to also manipulate different objects.
 
-  | ![Inhand Manipulation - First Orientation](./assets/inhand_manipulation_1.png)   | ![Inhand Manipulation - Second Orientation](./assets/inhand_manipulation_2.png)   |
+  | ![Inhand Manipulation - First Orientation](./images/inhand_manipulation_1.png)   | ![Inhand Manipulation - Second Orientation](./images/inhand_manipulation_2.png)   |
   
   ```bash
   python test_inhand_manipulation.py
   ```
 
   ### Test grasping 
+  We provide a grasping benchmark with six space-relevant objects. These include a camera, a cargo transfer bag, a sample tube, a rover wheel, a grease gun, and a crew bag. However, only cargo transfer   bag, rover wheel and crew bag can be grasped sucessfully from all six directions.
+
+  ![Test Grasping - Camera](./images/grasping_camera.png) 
+  
   ```bash
   python test_grasping.py
   ```
 
   ### Test path planning 
+  We simulate module-to-module transfer of a camera from the Kibo ELM-PS module to the Cupola module. The experiment allows for four standard planning algorithms: A*, RRT, RRT*, and RRT-Connect.
+
+  ![Test Grasping - Camera](./images/path_planning.png) 
+  
   ```bash
   python test_planning.py
   ```
