@@ -30,9 +30,9 @@ We demonstrate grasping, free-floating object reconfiguration, and mobile manipu
 
   ### Test inhand manipulation 
   You can perform inhand manipulation by grasping a cargo transfer bag and rotating it by 180 or 360 degrees. The procedure consists of three phases: grasping, releasing with induced
-  spin, and timed regrasping Therefor, we use a trajectory defined in "trajectory_inhand_manipulation", that you can adapt to also manipulate different objects.
+  spin, and timed regrasping. Therefore, we use a trajectory defined in "trajectory_inhand_manipulation", that you can adapt to also manipulate different objects.
 
-  | ![Inhand Manipulation - First Orientation](./images/inhand_manipulation_1.png)   | ![Inhand Manipulation - Second Orientation](./images/inhand_manipulation_2.png)   |
+  ![Inhand Manipulation - First Orientation](./images/inhand_manipulation_1.png)    ![Inhand Manipulation - Second Orientation](./images/inhand_manipulation_2.png) 
   
   ```bash
   python test_inhand_manipulation.py
