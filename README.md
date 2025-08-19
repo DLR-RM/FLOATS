@@ -8,6 +8,7 @@ A simulation framework for free-flying soft robots in microgravity.
 FLOATS facilitates realistic simulation of locomotion, manipulation, and planning for deformable on-orbit systems.
 We demonstrate grasping, free-floating object reconfiguration, and mobile manipulation tasks as a baseline for research on soft robotics planning and control in microgravity.
 
+![Hero Image](./images/hero_image.png)
 
 ## Features
 - **PyBullet Simulation Environment**:
@@ -28,6 +29,10 @@ We demonstrate grasping, free-floating object reconfiguration, and mobile manipu
 ## Getting Started
 
   ### Test inhand manipulation 
+  You can perform inhand manipulation by grasping a Cargo Transder Box and rotating it by 180 or 360 degrees. Therefor, we use a trajectory defined in "trajectory_inhand_manipulation", that you can       adapt to also manipulate different objects like cameras, rover wheels, sample tubes, grease guns etc..
+
+  | ![Inhand Manipulation - First Orientation](./assets/inhand_manipulation_1.png)   | ![Inhand Manipulation - Second Orientation](./assets/inhand_manipulation_2.png)   |
+  
   ```bash
   python test_inhand_manipulation.py
   ```
