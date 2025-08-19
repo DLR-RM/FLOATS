@@ -41,7 +41,7 @@ We demonstrate grasping, free-floating object reconfiguration, and mobile manipu
   ### Test grasping 
   We provide a grasping benchmark with six space-relevant objects. These include a camera, a cargo transfer bag, a sample tube, a rover wheel, a grease gun, and a crew bag. However, only cargo transfer   bag, rover wheel and crew bag can be grasped sucessfully from all six directions.
 
-  ![Test Grasping - Camera](./images/grasping_camera.png) 
+  ![Test Grasping - Camera](./images/grasping_camera.png)   ![Test Grasping - Crew Bag](./images/grasping_crew_bag.png) 
   
   ```bash
   python test_grasping.py
